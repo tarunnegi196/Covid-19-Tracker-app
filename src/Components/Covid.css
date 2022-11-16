@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=PT+Sans&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blanchedalmond;
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  animation: animate 1s linear infinite;
+}
+h2 {
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  align-items: center;
+
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin-inline: 180px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  margin-right: 80px;
+  text-align: center;
+  overflow: auto;
+  box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+}
+p {
+  font-weight: bolder;
+  font-size: larger;
+  font-family: "PT Sans", sans-serif;
+}
+span {
+  font-weight: lighter;
+  font-size: small;
+}
+.card_total {
+  font-size: 35px;
+  font-family: "PT Sans", sans-serif;
+}
+li:hover {
+  transform: scale(
+    1.2
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.class_inner1 {
+  background-color: rgb(79, 98, 124);
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.class_inner2 {
+  background-color: rgb(215, 250, 215);
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+.class_inner3 {
+  background-color: rgb(243, 240, 80);
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+.class_inner4 {
+  background-color: rgb(224, 159, 74);
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+.class_inner5 {
+  background-color: rgb(12, 84, 112);
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+.class_inner6 {
+  background-color: rgb(236, 113, 129);
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+  }
+}
